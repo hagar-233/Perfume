@@ -1,0 +1,53 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+
+.information{
+   height: 400px;
+   width: 60vw;
+display: flex;
+border: 2px solid white;
+box-shadow: 5px 5px 10px black;
+margin: auto;
+margin-top: 100px;
+
+}
+div img{
+     height: 300px;
+     width: 200px;
+     margin-top: 30px;
+  margin-left: 30px;
+}
+.information .details{
+    padding:40px;
+}
+.information .details h1{
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding: 10px;
+     font-weight: 900;
+}
+.information .details p{
+  font-size: 20px;
+  font-weight: 600;
+}
+ span{
+
+ display: inline-block;
+ width: 70px;
+ margin-top: 20px;
+   font-size: 35px;
+ font-weight: 700;
+
+}
+ .remove{
+    text-decoration: line-through;
+    font-size: 15px;
+    padding-left: 20px;
+}
+ 
+ .price{
+    color: #00ff00;
+}
